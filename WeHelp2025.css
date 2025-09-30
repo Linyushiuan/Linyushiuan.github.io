@@ -1,0 +1,141 @@
+/* Top of the page*/
+body{
+    background-color: rgb(255, 255, 255);;
+}
+.title{
+    background-color: rgb(203, 223, 23);
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    text-align: left;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    text-align: left;
+    list-style-type: none;
+}
+
+a:link{
+    color: rgb(255, 255, 255);;
+}
+a:visited{
+    color: royalblue;
+}
+a:hover{
+    background-color:rgb(160, 205, 190);
+    color: rosybrown;
+}
+a:active{
+    color: royalblue;
+}
+
+/* middle of th page*/
+.middle{
+    background-color: rgb(203, 223, 23);
+}
+
+#middle_link{
+    color:blue;
+}
+
+
+
+/* Butten of the page*/
+.butten{
+    background-color: rgb(203, 223, 23);
+    color: rgb(255, 255, 255);;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+.butten_space{
+    margin-left: 36px;
+    margin-right: 36px;
+    font-size: 1.5em;
+}
+
+.butten_title{
+    flex:none;
+    width: 20%;
+    font-size: 1.5em;
+}
+
+#li-img_ig{
+    list-style: none;
+    max-width: 2px;
+}
+
+
+#li-img_fb{
+    list-style: none;
+    max-width: 2px;
+}
+
+.title:visited{
+    color: rgb(255, 255, 255);;
+}
+
+#wrapper{
+	/* dont be too wide */
+	max-width:1024px;
+	/* center page in wide viewports */
+	margin:auto;
+
+	/*  make flexbox container*/
+	
+
+	/*  min fill all vertical viewport space */
+	
+
+
+	border-width:0px 2px;
+	
+}
+
+#section_color{
+    background-color: rgb(203, 223, 23);
+}
+
+
+#fake_link{
+    color: rosybrown;
+}
+
+
+
+.butten{
+    background-color: rgb(203, 223, 23);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+.menu{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 1px;
+    text-align:center;
+    padding:0.5px;
+    margin:1px;
+    background-color: rgb(203, 223, 23);
+}
+.menu_nl{
+    padding-left:35px;
+
+}
+
+
+.text{
+    padding:1px;
+    margin:1px;
+    padding:5px;
+    border:solid 3px rgb(203, 223, 23);
+    background-color:  rgb(255, 255, 255);;
+
+}
+
